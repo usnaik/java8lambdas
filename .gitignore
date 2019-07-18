@@ -1,7 +1,7 @@
-bin/
-
-target/
-!.mvn/wrapper/maven-wrapper.jar
+# Eclipse project files
+.project
+.classpath
+.settings
 
 ### STS ###
 .apt_generated
@@ -24,3 +24,27 @@ nbbuild/
 dist/
 nbdist/
 .nb-gradle/
+
+# Build targets
+/target
+*/target
+/bin
+
+# Report directories
+/reports
+*/reports
+
+# Mac-specific directory that no other operating system needs.
+.DS_Store
+
+# JVM crash logs
+hs_err_pid*.log
+
+!.mvn/wrapper/maven-wrapper.jar
+
+# Geany project file
+.geany
+
+# KDevelop project file and directory
+.kdev4/
+*.kdev4

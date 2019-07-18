@@ -43,3 +43,7 @@ public class Unit1ExerciseSolutionJava8 {
 	}
 }
 
+interface Condition {
+	boolean test(Person p);
+}
+

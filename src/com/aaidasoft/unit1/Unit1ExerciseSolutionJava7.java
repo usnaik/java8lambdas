@@ -5,7 +5,7 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-import com.aaidasoft.common.Person;
+import com.aaidasoft.common.Person;;
 
 public class Unit1ExerciseSolutionJava7 {
 
@@ -64,6 +64,3 @@ public class Unit1ExerciseSolutionJava7 {
 	}
 }
 
-interface Condition {
-	boolean test(Person p);
-}
